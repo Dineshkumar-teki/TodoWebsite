@@ -1,0 +1,60 @@
+@media (max-width:425px){
+    .tabItem{
+        border-radius: 8px;
+    }
+    .tabItemBtn{
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        display: flex;
+        gap: .3rem;
+        align-items: center;
+        padding: .5rem;
+        border-radius: 8px;
+    }
+    .activeTab{
+        background-color: whitesmoke;
+    }
+    .tabItemBtn > span{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        align-self: center;
+    }
+    .tabItemBtn > p{
+        font-weight: 700;
+        font-size: 13px;
+        align-self: center;
+    }
+}
+@media (min-width:426px){
+    .tabItem{
+        border-radius: 10px;
+    }
+    .tabItemBtn{
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        display: flex;
+        gap: .5rem;
+        align-items: center;
+        padding: .5rem;
+        border-radius: 10px;
+    }
+    .activeTab{
+        background-color: whitesmoke;
+    }
+    .tabItemBtn > span{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        align-self: center;
+    }
+    .tabItemBtn > p{
+        font-weight: 600;
+        font-size: 16px;
+        align-self: center;
+    }
+}

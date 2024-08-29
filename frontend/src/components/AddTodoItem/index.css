@@ -1,0 +1,172 @@
+@media (min-width: 426px){
+    .AddTodoCard{
+        background-color: white;
+        border: 1px solid silver;
+        width: 600px;
+        border-radius: 10px;
+        padding: 2rem;
+    }
+    .btnContainer{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1.8rem;
+    }
+    .btnContainer > .btn{
+        padding: .5rem 2rem;
+        border-radius: 8px;
+        outline: none;
+        font-weight: 600;
+    }
+    .cancelBtn{
+        background-color: white;
+        border: 1px solid silver;
+    }
+    .addBtn{
+        background-color: #696657;
+        border: none;
+        color: white;
+    }
+    .addTodoForm{
+        display: flex;
+        flex-direction: column;
+    }
+    .addTodoForm > label{
+        margin-bottom: .6rem;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .addTodoForm > p{
+        font-size: 1rem;
+    }
+    .addTodoForm > input{
+        margin-bottom: 1.2rem;
+        padding: 0 1rem;
+        height: 35px;
+        border: 1px solid silver;
+        border-radius: 8px;
+        font-weight: 500;
+    }
+    .addTodoForm > textarea{
+        margin-bottom: 1.2rem;
+        padding: .8rem 1rem;
+        border: 1px solid silver;
+        border-radius: 8px;
+        font-weight: 500;
+    }
+    .tagsList{
+        display: flex;
+        gap: 1.2rem;
+        list-style-type: none;
+        margin-top: .8rem;
+    }
+    .eachTagBtn{
+        display: flex;
+        align-items: center;
+        gap: .3rem;
+        border: none;
+        outline: none;
+        padding: .5rem .8rem;
+        border-radius: 8px;
+        background-color: transparent;
+    }
+    .eachTagBtn > span{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .eachTagBtn > p{
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .activeTab{
+        background-color: whitesmoke;
+    }
+}
+@media (max-width: 425px){
+    .AddTodoCard{
+        background-color: white;
+        border: 1px solid silver;
+        width: 380px;
+        border-radius: 8px;
+        padding: 1rem;
+    }
+    .btnContainer{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1.1rem;
+    }
+    .btnContainer > .btn{
+        padding: .5rem 1.5rem;
+        border-radius: 6px;
+        outline: none;
+        font-weight: 600;
+    }
+    .cancelBtn{
+        background-color: white;
+        border: 1px solid silver;
+    }
+    .addBtn{
+        background-color: #696657;
+        border: none;
+        color: white;
+    }
+    .addTodoForm{
+        display: flex;
+        flex-direction: column;
+    }
+    .addTodoForm > label{
+        margin-bottom: .4rem;
+        font-weight: 700;
+        font-size: 1rem;
+    }
+    .addTodoForm > p{
+        font-size: 1rem;
+    }
+    .addTodoForm > input{
+        margin-bottom: 1rem;
+        padding: 0 1rem;
+        height: 35px;
+        border: 1px solid silver;
+        border-radius: 6px;
+        font-weight: 500;
+    }
+    .addTodoForm > textarea{
+        margin-bottom: 1rem;
+        padding: .8rem 1rem;
+        border: 1px solid silver;
+        border-radius: 6px;
+        font-weight: 500;
+    }
+    .tagsList{
+        display: flex;
+        gap: .5rem;
+        list-style-type: none;
+        margin-top: .5rem;
+        overflow: auto;
+    }
+    .tagsList::-webkit-scrollbar{
+        display: none;
+    }
+    .eachTagBtn{
+        display: flex;
+        align-items: center;
+        gap: .3rem;
+        border: none;
+        outline: none;
+        padding: .5rem;
+        border-radius: 8px;
+        background-color: transparent;
+    }
+    .eachTagBtn > span{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+    .eachTagBtn > p{
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .activeTab{
+        background-color: whitesmoke;
+    }
+}

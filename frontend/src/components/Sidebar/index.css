@@ -1,0 +1,15 @@
+@media (min-width: 426px){
+    .tabItems{
+        display: flex;
+        flex-direction: column;
+        gap: .8rem;
+        list-style-type: none;
+    }
+}
+@media (max-width: 425px){
+    .tabItems{
+        display: flex;
+        gap: .5rem;
+        list-style-type: none;
+    }
+}

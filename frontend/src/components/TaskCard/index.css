@@ -1,0 +1,154 @@
+@media (min-width: 426px){
+    .taskCard{
+        background-color: #ffec95;
+        padding: 1rem;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        position: relative;
+        transition: 1s;
+    }
+    .taskCard:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 4px 16px #bfbfbf;
+    }
+    .titleCard{
+        display: flex;
+        justify-content: space-between;
+    }
+    .titleCard > button{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 1.5rem;
+
+    }
+    .taskDone{
+        text-decoration: line-through;
+    }
+    .editAndDelete{     
+        position: absolute;
+        right: 1rem;
+        top: 2.5rem;
+        background-color: white;
+        border-radius: 8px;
+        width: 100px;
+    }
+    .hideCard{
+        display: none;
+    }
+    .editAndDelete > hr{
+        border: 1px solid whitesmoke;
+    }
+    .editAndDelete > button{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        padding: 10px;
+        font-size: 14px;
+        color: #B2AFA1;
+        font-weight: 400;
+    }
+    .taskTypeAndTaskStatus{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .taskSpecificTypes{
+        display: flex;
+        gap: .3rem;
+    }
+    .taskSpecificTypes > span{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .taskStatus{
+        display: flex;
+        gap: .3rem;
+    }
+    .taskStatus > label{
+        font-size: 14px;
+        font-weight: 600;
+        color: #B2AFA1;
+    }
+    .taskStatus > input{
+        accent-color: white;
+    }
+}
+@media (max-width: 425px){
+    .taskCard{
+        background-color: #ffec95;
+        padding: 1rem;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        position: relative;
+        margin-top: 1rem;
+    }
+    .titleCard{
+        display: flex;
+        justify-content: space-between;
+    }
+    .titleCard > button{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 1.5rem;
+
+    }
+    .taskDone{
+        text-decoration: line-through;
+    }
+    .editAndDelete{     
+        position: absolute;
+        right: 1rem;
+        top: 2.5rem;
+        background-color: white;
+        border-radius: 8px;
+        width: 100px;
+    }
+    .hideCard{
+        display: none;
+    }
+    .editAndDelete > hr{
+        border: 1px solid whitesmoke;
+    }
+    .editAndDelete > button{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        padding: 10px;
+        font-size: 14px;
+        color: #B2AFA1;
+        font-weight: 400;
+    }
+    .taskTypeAndTaskStatus{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .taskSpecificTypes{
+        display: flex;
+        gap: .3rem;
+    }
+    .taskSpecificTypes > span{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .taskStatus{
+        display: flex;
+        gap: .3rem;
+    }
+    .taskStatus > label{
+        font-size: 14px;
+        font-weight: 600;
+        color: #B2AFA1;
+    }
+    .taskStatus > input{
+        accent-color: white;
+    }
+}

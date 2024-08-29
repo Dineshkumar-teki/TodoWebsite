@@ -1,0 +1,135 @@
+@media (min-width: 426px){
+    .homePage{
+        display: flex;
+        gap: 5rem;
+        min-height: 80vh;
+        background-color: white;
+        padding: 2rem 1.5rem;
+    }
+    ul{
+        list-style-type: none;
+    }
+    .cartoonImg{
+        width: 150px;
+        object-fit: scale-down;
+        margin-top: 3rem;
+    }
+    .tasks{
+        list-style-type: none;
+        columns: 2;
+        column-gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    .tasks > *{
+        break-inside: avoid;
+        margin-bottom: 1rem;
+    }
+    .taskSection{
+        width: 100%;
+    }
+    .hideTasksCheckbox{
+        display: flex;
+        gap: .5rem;
+        margin-top: 2rem;
+        margin-left: .5rem;
+    }
+    .hideTasksCheckbox > input{
+        accent-color: whitesmoke;
+    }
+    .hideTasksCheckbox > label{
+        font-size: .8rem;
+        font-weight: 600;
+        color: #B2AFA1;
+    }
+    .emptyTodoList{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .emptyTodoList > p{
+        font-weight: 700;
+        font-size: 1.2rem;
+        text-align: center;
+        
+    }
+    .emptyTodoList > img{
+        object-fit: cover;
+        width: 60%;
+    }
+    .hidetasks{
+        color: black !important;
+    }
+    .loader{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+    }
+}
+@media (max-width: 425px){
+    .homePage{
+        display: flex;
+        flex-direction: column;
+        min-height: 80vh;
+        background-color: white;
+        padding: 1rem;
+    }
+    ul{
+        list-style-type: none;
+    }
+    .cartoonImg{
+        width: 150px;
+        object-fit: scale-down;
+        margin-top: 3rem;
+        display: none;
+    }
+    .tasks{
+        list-style-type: none;
+        columns: 1;
+        column-gap: 10px;
+        margin-bottom: 10px;
+    }
+    .tasks > *{
+        break-inside: avoid;
+        margin-bottom: 10px;
+    }
+    .taskSection{
+        width: 100%;
+    }
+    .hideTasksCheckbox{
+        display: flex;
+        gap: .3rem;
+        margin-top: 1rem;
+        margin-left: .2rem;
+    }
+    .hideTasksCheckbox > input{
+        accent-color: whitesmoke;
+    }
+    .hideTasksCheckbox > label{
+        font-size: .8rem;
+        font-weight: 600;
+        color: #B2AFA1;
+        align-self: center;
+    }
+    .emptyTodoList{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .emptyTodoList > p{
+        font-weight: 700;
+        font-size: .8rem;
+        line-height: 18px;
+        text-align: center;
+    }
+    .emptyTodoList > img{
+        width: 80%;
+        object-fit: cover;
+    }
+    .hidetasks{
+        color: black !important;
+    }
+}
